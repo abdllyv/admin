@@ -1,0 +1,25 @@
+.home {
+  width: 100%;
+  height: 93vh;
+  background-image: url(../../images/cysler.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  .container {
+    .row {
+      justify-content: center;
+      align-items: flex-end;
+      .homeTitle {
+        font-size: 50px;
+        font-weight: 900;
+        font-style: italic;
+        color: #202424;
+        background-color: rgba(255, 255, 255, 0.3);
+        backdrop-filter: blur(4px);
+        padding: 8px 16px;
+        border-radius: 5px;
+        margin-bottom: 100px;
+      }
+    }
+  }
+}
